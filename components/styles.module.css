@@ -1,0 +1,54 @@
+
+
+.mainContainer{
+    width: 500px;
+    margin-top: 30vh;
+    margin-left: 60vh;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0,0.1);
+}
+
+.mainContainer > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container > label {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.container label{
+    margin-bottom: 20px;
+}
+
+.container  input{
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.topBox{
+    margin-top: 20px;
+    
+}
+
+.mainContainer button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.mainContainer button:hover{
+    background-color: #a2d2ff;
+}

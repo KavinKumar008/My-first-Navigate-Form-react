@@ -1,0 +1,116 @@
+.formMaincontainer{
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formMaincontainer  h1{
+    color: #ee964b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formContainer p{
+    margin-top: 10px;
+}
+
+.files{
+    margin-top: 3px;
+    border-radius: 2px;
+    border: 1px solid rgba(166, 143, 143, 0.774);
+}
+
+.inputBox{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 6px;
+    margin-top: 8px;
+    /* font-size: 16px; */
+    outline: none;
+}
+
+ .genders > label{
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    margin-top: 10px;
+    padding: 0 5rem;
+    gap: 1rem;
+}
+
+.subjects > label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 5rem;
+    gap: 1rem;
+} 
+
+.subjects > input[type='radio']{
+    accent-color: green;
+}
+.choices:hover{
+   
+}
+
+.choices > select {
+    background-color: #dee2e6;
+    display: flex;
+    width: 100%;
+    border-radius: 2px;
+    /* margin-left: 30px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.areas textarea{
+    display: flex;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.formContainer > h4{
+    text-align: start;
+}
+
+.twoBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.formBtn{
+   width: 90%;
+   margin-top: 8px;
+   padding: 8px 10px;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: #ee964b;
+   color: #fff;
+   border: none;
+   outline: none;
+}  
+
+
+/* userdatas */
+
+.userData{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 100px;
+    list-style-type: none;
+}
